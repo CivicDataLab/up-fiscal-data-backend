@@ -4,13 +4,13 @@ A data scraping pipeline was setup to mine relevant data and sources from the Ut
 
 ## Table of Contents
 
-[Platform]()
+[Platform](https://github.com/CivicDataLab/up-fiscal-data-backend#platform)
 
-[Tools]()
+[Tools](https://github.com/CivicDataLab/up-fiscal-data-backend#tools)
 
-[Setup]()
+[Setup](https://github.com/CivicDataLab/up-fiscal-data-backend#setup)
 
-[Challenges]()
+[Challenges](https://github.com/CivicDataLab/up-fiscal-data-backend#challenges)
 
 [Contributions](https://github.com/CivicDataLab/up-fiscal-data-backend#contributions)
 
@@ -23,7 +23,7 @@ A data scraping pipeline was setup to mine relevant data and sources from the Ut
 
 A more detailed analysis of the platform and in-scope data can be found [here](https://github.com/CivicDataLab/up-fiscal-data/blob/master/01-data-scoping/budget-portal.md).
 
-## Tool
+## Tools
 
 Though the data on the Koshvani platform is available in structured format to us and analyse, scraping it through traditional methods was turning out to be a challenge.
 
