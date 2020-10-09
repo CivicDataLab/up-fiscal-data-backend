@@ -25,11 +25,10 @@ class DdoWiseExp(SeleniumScrappingUtils):
         self.section_selector(Select,driver,fiscal_year,url_of_section)
 
         table = driver.find_elements_by_id("myTable")[0]
-        #self.table_to_csv(driver,parent_folder,"main_file", table)
+        self.table_to_csv(driver,parent_folder,"main_file", table)
         (links_of_ddos_url_string,links_of_ddos_name, name_of_hierarchy_ddos) = self.sel_elem_to_links(driver,table)
-        links_of_ddos_name = links_of_ddos_name[8:]
-        name_of_hierarchy_ddos = name_of_hierarchy_ddos[8:]
-        for index_ddos, ddos_link in enumerate(links_of_ddos_url_string[8:]):
+
+        for index_ddos, ddos_link in enumerate(links_of_ddos_url_string):
             driver.get(ddos_link)
             table = driver.find_elements_by_id("myTable")[0]
             hierarchy_ddos = name_of_hierarchy_ddos[index_ddos]
