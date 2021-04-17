@@ -21,7 +21,7 @@ A data scraping pipeline was setup to mine relevant data and sources from the Ut
 **Platfrom Name** : Koshvani web -- A Gateway to Finance Activities in the State of Uttar Pradesh
 **Platform URL** : http://koshvani.up.nic.in/
 
-A more detailed analysis of the platform and in-scope data can be found [here](https://github.com/CivicDataLab/up-fiscal-data/blob/master/01-data-scoping/budget-portal.md).
+A more detailed analysis of the platform and in-scope data can be found [here](https://github.com/CivicDataLab/up-fiscal-data/blob/main/data-scoping/budget-portal.md).
 
 ## Tools
 
